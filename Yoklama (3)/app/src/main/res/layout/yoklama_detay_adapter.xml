@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imgOgrenci"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@mipmap/ogrenci"/>
+    <TextView
+        android:id="@+id/txt_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ogrenci Adı Buraya"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/imgOgrenci" />
+
+    <TextView
+        android:id="@+id/txt_numara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0000000000"
+        android:layout_alignBottom="@+id/imgOgrenci"
+        android:layout_alignParentEnd="true" />
+
+
+
+</RelativeLayout>

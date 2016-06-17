@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Controller.AyarlarActivity">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/user_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ayarlar"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/sfrYeni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yeni Şifre"
+        android:inputType="textPassword"
+        android:layout_below="@+id/user_image"/>
+
+
+    <EditText
+        android:layout_marginTop="60dp"
+        android:id="@+id/sfrTekrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Yeni Şifre (Tekrar)"
+        android:inputType="textPassword"
+        android:layout_below="@+id/user_image"/>
+    <Button
+        android:id="@+id/btnKaydet"
+        android:layout_marginTop="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        android:layout_below="@+id/user_image"/>
+
+</RelativeLayout>

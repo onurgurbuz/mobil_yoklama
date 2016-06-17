@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Yoklama</string>
+    <string name="user">Kullanıcı Adı</string>
+    <string name="pass">Parola</string>
+    <string name="login">Giriş Yap</string>
+    <string name="tara">Taranıyor</string>
+</resources>
